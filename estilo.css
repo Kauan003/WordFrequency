@@ -13,6 +13,7 @@ section
     display: grid;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 h1
 {
@@ -21,7 +22,7 @@ h1
     margin: 20px;
 }
 div{
-    width: 600px;
+    width: 550px;
 }
 .Text_Area
 {
@@ -96,7 +97,8 @@ td:last-child
 {
     width: 80%;
 }
-@media (max-width:550px) {
+
+@media (max-width:600px) {
     h1{
         font-size:2rem;
     }
@@ -106,3 +108,4 @@ td:last-child
         font: 0.5em;
     }
 }
+
